@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --primary-color: #0083FF;
+    --secondary-color:#020080;
+    --tertiary-color:#203B54;
+    --escuro-color:#020303;
+    --claro-color:#e2e8f0;
+    --vidro-color: rgba(255, 255, 255, 0.1);
+}
+
+body{
+    background-color: var(--escuro-color);
+    color: var(--claro-color);
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    padding: 1.5rem;
+    background-color: rgba(0, 36, 75, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
